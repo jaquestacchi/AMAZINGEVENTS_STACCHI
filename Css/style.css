@@ -1,0 +1,139 @@
+@media (max-width:320px) {
+
+    .amazing {
+        background-color: rgb(252, 200, 209);
+        font-family: Verdana;
+    }
+
+    .logo {
+        width: 150px;
+        height: 100px;
+    }
+
+    .contenedor {
+        background-color: rgb(184, 140, 235);
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        font-size: 15px;
+        padding: 0 auto;
+        margin-right: 0;
+    }
+
+    .pastnext {
+        display: flex;
+        justify-content: space-around;
+        border-style: groove;
+        background-color: rgb(126, 126, 126);
+        margin-top: 10;
+    }
+
+    .checkbox {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+
+    }
+
+    .search {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        margin: 0;
+        padding: 0;
+    }
+
+    .d-flex {
+        font-size: 15px;
+    }
+
+    .food {
+        width: 200px;
+        height: 210px;
+    }
+
+    .event {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer {
+        background-color: rgb(184, 140, 235);
+    }
+
+
+}
+
+/*PANTALLA GRANDE*/
+@media (min-width: 800px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .amazing {
+        background-color: rgb(252, 200, 209);
+        font-family: Verdana;
+    }
+
+    .logo {
+        width: 300px;
+        height: 200px;
+
+    }
+
+    .contenedor {
+        background-color: rgb(184, 140, 235);
+        display: flex;
+        justify-content: space-between;
+        padding: 20;
+        margin: 20;
+    }
+
+    .menu {
+        padding: 50px;
+        margin: 40px;
+        font-size: 50px;
+    }
+
+    .pastnext {
+        display: flex;
+        justify-content: space-around;
+        border-style: groove;
+        background-color: rgb(126, 126, 126);
+        margin-top: 10;
+        height: 70px;
+    }
+
+    .checkbox {
+        display: flex;
+        justify-content: flex-start;
+
+    }
+
+    .select {
+        display: flex;
+        justify-content: space-between;
+        padding: 40;
+    }
+
+    .food {
+        width: 500px;
+        height: 210px;
+    }
+
+    .event {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer {
+        background-color: rgb(184, 140, 235);
+    }
+
+}

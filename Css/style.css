@@ -1,4 +1,7 @@
 @media (max-width:320px) {
+    main{
+        display: flex;
+    }
 
     .amazing {
         background-color: rgb(252, 200, 209);
@@ -14,10 +17,12 @@
         background-color: rgb(184, 140, 235);
         display: flex;
         flex-wrap: wrap;
-        align-content: center;
+        align-content: space-around;
         font-size: 15px;
-        padding: 0 auto;
-        margin-right: 0;
+    }
+    .menu{
+        padding: 4px;
+        margin: 4px;
     }
 
     .pastnext {
@@ -26,6 +31,7 @@
         border-style: groove;
         background-color: rgb(126, 126, 126);
         margin-top: 10;
+        padding: 2px;
     }
 
     .checkbox {
@@ -72,9 +78,6 @@
         box-sizing: border-box;
     }
 
-    img {
-        max-width: 100%;
-    }
 
     .amazing {
         background-color: rgb(252, 200, 209);
@@ -82,9 +85,8 @@
     }
 
     .logo {
-        width: 300px;
-        height: 200px;
-
+        width: 200px;
+        height: 100px;
     }
 
     .contenedor {
@@ -135,5 +137,6 @@
     .footer {
         background-color: rgb(184, 140, 235);
     }
+   
 
 }

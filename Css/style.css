@@ -41,14 +41,6 @@
 
     }
 
-    .search {
-        display: flex;
-        flex-wrap: wrap;
-        align-content: flex-start;
-        margin: 0;
-        padding: 0;
-    }
-
     .d-flex {
         font-size: 15px;
     }
@@ -98,8 +90,8 @@
     }
 
     .menu {
-        padding: 50px;
-        margin: 40px;
+        padding: 20px;
+        margin: 20px;
         font-size: 50px;
     }
 
@@ -126,12 +118,14 @@
 
     .food {
         width: 500px;
-        height: 210px;
+        height: 400px;
     }
 
     .event {
         display: flex;
         justify-content: center;
+        padding: 60px;
+
     }
 
     .footer {

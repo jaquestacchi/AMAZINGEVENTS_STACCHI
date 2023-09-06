@@ -194,28 +194,3 @@ const data = {
       },
     ],
   };
-
-  function hacerCards(events,idcardcontenedor){
-    for(let event of events){
-        let card = `<div class="col">
-            <div class="card col-12 col-xs-6 lg-4 xl-3">
-            <img src=" ${event.image} " class="card-img-top" alt="${event.name}">
-            <div class="card-body">
-            <h5 class="card-title1">${event.name}</h5>
-            <p class="card-text1">${event.description}</p>
-            <div class="precio d-flex justify-content-between">
-                <p>$${event.price}</p>
-                <a href="./details.html" class="btn btn-primary">Details</a>
-            </div>
-            </div>
-        </div>
-      </div>`;
-        document.getElementById(idcardcontenedor).innerHTML += card;
-        }
-
-    };
-    hacerCards(data.events,"cardcontenedor");
-  
-
-
-

@@ -27,6 +27,7 @@
 
   </div>
 
+  <div class="main">
   <div class="pastnext">
     <a class="carousel-control-prev-icon p-2 m-3" href="./upcomingevents.html" role="button"></a>
     <h1 class="past p-2">PAST EVENTS</h1>
@@ -36,28 +37,28 @@
   <div class="select p-4">
     <div class="checkbox">
       <div class="form-check form-check-inline">
-        <input class="form-check-input" input type="checkbox" id="foodCheckBox" value="Food Fair">
-        <label class="form-check-label" for="foodCheckBox">Food Fair</label>
+        <input class="form-check-input" input type="checkbox" id="foodCheckBox" value="Food">
+        <label class="form-check-label" for="foodCheckBox">Food</label>
       </div>
       <div class="form-check form-check-inline">
         <input class="form-check-input" input type="checkbox" id="museumCheckBox" value="Museum">
         <label class="form-check-label" for="museumCheckbox">Museum</label>
       </div>
       <div class="form-check form-check-inline">
-        <input class="form-check-input" input type="checkbox" id="costumeCheckBox" value="Costume Party">
-        <label class="form-check-label" for="costumeCheckBox">Costume Party</label>
+        <input class="form-check-input" input type="checkbox" id="costumeCheckBox" value="Party">
+        <label class="form-check-label" for="costumeCheckBox">Party</label>
       </div>
       <div class="form-check form-check-inline">
-        <input class="form-check-input" input type="checkbox" id="musicCheckBox" value="Music Concert">
-        <label class="form-check-label" for="musicCheckBox">Music Concert</label>
+        <input class="form-check-input" input type="checkbox" id="musicCheckBox" value="Concert">
+        <label class="form-check-label" for="musicCheckBox">Concert</label>
       </div>
       <div class="form-check form-check-inline">
         <input class="form-check-input" input type="checkbox" id="raceCheckBox" value="Race">
         <label class="form-check-label" for="raceCheckBox">Race</label>
       </div>
       <div class="form-check form-check-inline">
-        <input class="form-check-input" input type="checkbox" id="bookCheckBox" value="Book Exchange">
-        <label class="form-check-label" for="bookCheckBox">Book Exchange</label>
+        <input class="form-check-input" input type="checkbox" id="bookCheckBox" value="Books">
+        <label class="form-check-label" for="bookCheckBox">Books</label>
       </div>
       <div class="form-check form-check-inline">
         <input class="form-check-input" input type="checkbox" id="cinemaCheckBox" value="Cinema">
@@ -68,7 +69,7 @@
       <nav class="navbar bg-body-tertiary">
         <div class="p-0 px-3 mt-2">
           <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Ingrese evento" aria-label="Search" id="eventosInput">
+            <input class="form-control me-2" type="search" placeholder="Search a event" aria-label="Search" id="eventosInput">
             <button class="btnsearch" type="button" id="btnSearch">Search</button>
           </form>
           <p class="text-danger" id="msgError"></p>
@@ -76,7 +77,10 @@
       </nav>
     </div>
   </div>
-  <div class="row p-3 pb-3 pt-3 gx-5 g-2 gy-5 mx-0" id="pasteventscard"></div>
+  <div class="container">
+  <div class="row align-items-start p-3 pb-3 pt-3 gx-5 g-2 gy-5 mx-0" id="pasteventscard"></div>
+</div>
+</div>
 
   <div class="footer">
     <div class="py-2 m-1 p-4 start-position h-25 d-flex">
@@ -93,7 +97,7 @@
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
     crossorigin="anonymous"></script>
 
-  <script src="./js/main.js"></script>
+  
   <script src="./js/pastevents.js"></script>
 
 </body>
